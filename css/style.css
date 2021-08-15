@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(233, 229, 225);
+}
+
+#main{
+    background-color: #fff;
+    width: 65%;
+    margin: auto;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+#main .introduce{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 100vh;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    line-height: 1.2;
+}
+#main .introduce .bg{
+    flex: 1 0;
+
+}
+#main .introduce #intro-bg{
+    background-color: aliceblue;
+    height: 100%;
+    flex-grow: 1.5;
+    background-image: url("https://source.unsplash.com/De8wMYoSSBc");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+#main .introduce #author h1{
+    text-transform: uppercase;
+}
+#main #our-work{
+    width: 100%;
+    height: 80px;
+    background-color:rgb(51, 50, 50);
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+img{
+    width: 100%;
+    height: 80vh;
+}
+.source{
+    text-align:center;
+    padding: 1.5rem;
+    line-height: 2;
+}
+#footer{
+    padding: 5rem;
+    text-align:center;
+    line-height: 2;
+}
+#main .introduce #author{
+    line-height: 1.5;
+}
+#main .introduce #author h1{
+    font-size: 35px;
+    font-weight: 500;
+}
+#main .introduce #author p{
+    color: grey;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+#button{
+    text-decoration:none;
+    border:rgb(0, 0, 0) 1px solid;
+    padding: 15px 30px;
+    border-radius:30px;
+    margin-top:20px;
+    color: black;
+}
